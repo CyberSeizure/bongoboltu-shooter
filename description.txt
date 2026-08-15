@@ -61,24 +61,3 @@ If the player loses all lives or health, a game-over message appears and the loo
 To summarize — this project taught us how to apply object-oriented principles like inheritance and method overriding in a real, working program. The `Ship` → `Player`/`Enemy` hierarchy kept the code clean and manageable. Overall it was a great way to see how concepts we learned in class come together to build something interactive.
 
 Thank you.
-
-## Web version
-
-This project can be played in a browser using **Pygbag**, which packages the Pygame game for WebAssembly/WebGL. The browser build is deployed automatically to GitHub Pages through GitHub Actions.
-
-### Run locally
-
-```bash
-python -m pip install -r requirements.txt
-python -m pip install pygbag
-pygbag .
-```
-
-Then open the local URL shown by Pygbag.
-
-### Controls
-
-- Arrow keys: move
-- Space: start game from the menu
-- The game auto-fires
-- A connected controller is supported when the browser/runtime exposes it
